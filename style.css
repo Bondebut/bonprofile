@@ -8,19 +8,21 @@ body {
 }
 
 .header {
-    width: 30%;
+    max-width: max-content;
     margin: 10px auto 0px;
+    
     color: white;
     background: #5f9ea0;
     text-align: center;
     border: 1px solid #b0c4de;
-    padding: 5px;
+    padding: 10px 100px 10px 100px;
 
 }
 .content {
-    width: 30%;
-    margin: 0 auto;
-    padding: 10px;
+
+    max-width: max-content;
+    margin: 0px auto;
+    padding: 10px 20px 10px 20px;
     border: 1px solid #b0c4de;
     background: white;
 
