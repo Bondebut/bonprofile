@@ -17,7 +17,7 @@
     <div class="header">
         <h2>Login</h2>
     </div>
-    <div class="content" action="login_db.php" method="post">
+    <form class="content" action="login_db.php" method="post">
     <?php if (isset($_SESSION['error'])): ?>
         <div class="error">
             <h3>
@@ -41,7 +41,7 @@
         </div>
 
         <p>Not yet a Member? <a href="register.php">Sign Up</a></p>
-    </div>
+    </form>
 
 
 
