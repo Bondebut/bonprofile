@@ -11,6 +11,7 @@
         unset($_SESSION['username']);
         header('location: login.php');
     }
+    include('nav.php'); 
 ?>
 
 
