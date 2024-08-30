@@ -8,19 +8,21 @@ body {
 }
 
 .header {
-    max-width: max-content;
+    max-width: 300px;
+    width: 100%;
     margin: 10px auto 0px;
     
     color: white;
     background: #5f9ea0;
     text-align: center;
     border: 1px solid #b0c4de;
-    padding: 10px 100px 10px 100px;
+    padding: 10px;
 
 }
 .content {
 
-    max-width: max-content;
+    max-width: 300px;
+    width: 100%;
     margin: 0px auto;
     padding: 10px 20px 10px 20px;
     border: 1px solid #b0c4de;
@@ -55,7 +57,7 @@ body {
 }
 
 .error {
-    width: 92%;
+    width: 100%;
     margin: 0px auto;
     padding: 10px;
     border: 1px solid #a94442;
