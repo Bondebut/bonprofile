@@ -19,7 +19,7 @@
         <h2>Register</h2>
     </div>
 
-    <form action="register_db.php" method="post">
+    <form class="content" action="register_db.php" method="post">
         <?php include("errors.php"); ?>
         <?php if (isset($_SESSION['error'])): ?>
         <div class="error">
