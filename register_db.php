@@ -17,7 +17,7 @@
         if ($password_1 != $password_2){
             array_push($errors,"password is not match");
         }
-        $user_check_query = "SELECT * FROM login WHERE username = '$username'";
+        $user_check_query = "SELECT * FROM user_detail WHERE username = '$username'";
 
         $query = mysqli_query($conn, $user_check_query);
         $result = mysqli_fetch_assoc($query);
@@ -32,7 +32,7 @@
         if (count($errors) == 0) {
             $password = md5($password_1);
 
-            $sql = "INSERT INTO login (username, password) VALUES ('$username','$password')";
+            $sql = "INSERT INTO user_detail (username, password) VALUES ('$username','$password')";
             mysqli_query($conn, $sql);
 
             $_SESSION['username'] = $username;
